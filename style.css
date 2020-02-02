@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#David {
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    background-image: url(./Images/hacker.jpg);
+    height: 1500px;
+    background-position: center;
+    font-family: Monospace;
+    font-size: 60px;
+}
+
+.typewriter h1 {
+    font-family: monospace;
+    letter-spacing: .15em;
+}
+
+.typewriter h1 {
+    margin: 0 auto;
+    overflow: auto;
+    white-space: no-wrap;
+}
+
+.typewriter h1 {
+    border-right: .15em solid orange;
+    border-left: .15em solid orange;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+.typewriter h1 {
+    animation: typing 3s steps(40, end);
+}
+
+.typewriter h1 {
+    animation: blinking-cursor .5s step-end infinite;
+}
+
+.typewriter h1 {
+    animation: 
+      typing 3.5s steps(40, end),
+      blinking-cursor 1s step-end infinite;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #55d6aa;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 10%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 50px; 
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #000; 
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#paragraph {
+    font-size: 25px;
+    font-family: Monospace;
+    letter-spacing: -1px;
+    word-spacing: -5px;
+    text-align: center;
+}
+
+#myself {
+    width: 1345px;
+}
+
+#aboutme {
+    text-align: center;
+}
+
+#birth {
+    width: 150px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    box-shadow: 5px 10px;
+    background-color: red;
+}
+
+#hobbies {
+    width: 150px;
+    border: 1px solid green;
+    padding: 10px;
+    margin-left: 400px;
+    text-align: left;
+    box-shadow: 5px 10px;
+    background-color: green;
+}
+
+#fav {
+    width: 150px;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-left: 800px;
+    text-align: left;
+    box-shadow: 5px 10px;
+    background-color: blue;
+}
+
+#like {
+    width: 150px;
+    border: 1px solid purple;
+    padding: 10px;
+    margin-left: 1150px;
+    text-align: left;
+    box-shadow: 5px 10px;
+    background-color: purple;
+}
+
+#everything {
+    background-image: url(https://wallpaperaccess.com/full/1101225.jpg);
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+    
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background: #5433ff;
+    background: -webkit-linear-gradient(to right, #5433ff, #20bdff, #a5fecb); 
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb); 
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background: #f12711;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background: #12c2e9;  
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+
+}
+
+#social {
+    background-image: url(https://ryanmartinproductions.com/image/72318-full_download-wallpaper-1920x1080-scheme-contact-blue-black-full-hd.jpg);
+    width: 100%;
+    background-repeat: none;
+}
